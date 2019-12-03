@@ -18,6 +18,7 @@
 		F3FEED732396227800D58810 /* Classification.enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED722396227800D58810 /* Classification.enum.swift */; };
 		F3FEED752396255400D58810 /* BooksEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED742396255400D58810 /* BooksEvent.swift */; };
 		F3FEED772396288100D58810 /* BooksEvents.JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED762396288100D58810 /* BooksEvents.JSONParser.swift */; };
+		F3FEED7B2396357B00D58810 /* BooksEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED7A2396357B00D58810 /* BooksEventsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		F3FEED742396255400D58810 /* BooksEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksEvent.swift; sourceTree = "<group>"; };
 		F3FEED762396288100D58810 /* BooksEvents.JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksEvents.JSONParser.swift; sourceTree = "<group>"; };
 		F3FEED7823962EA400D58810 /* BooksEventsJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksEventsJSONLoader.swift; sourceTree = "<group>"; };
+		F3FEED7A2396357B00D58810 /* BooksEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksEventsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				F3FEED4823960E1100D58810 /* LaunchScreen.storyboard */,
 				F3FEED4B23960E1100D58810 /* Info.plist */,
 				F3FEED4323960E0F00D58810 /* iOS_Final.xcdatamodeld */,
+				F3FEED7A2396357B00D58810 /* BooksEventsViewController.swift */,
 			);
 			path = "Books Events";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FEED7B2396357B00D58810 /* BooksEventsViewController.swift in Sources */,
 				F3FEED4523960E0F00D58810 /* iOS_Final.xcdatamodeld in Sources */,
 				F3FEED732396227800D58810 /* Classification.enum.swift in Sources */,
 				F3FEED3D23960E0F00D58810 /* AppDelegate.swift in Sources */,

@@ -10,68 +10,37 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Book Club Meetup-->
-        <scene sceneID="DHp-2g-cVb">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="m1g-pK-A96" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="b4M-tb-wlg" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="yId-bx-kt5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="booksEventCell" id="ZXN-0h-R8g">
-                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZXN-0h-R8g" id="PvF-Aw-GV9">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="aUO-8B-HSV" kind="show" id="riM-Ee-iW9"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="b4M-tb-wlg" id="xRa-0L-OYl"/>
-                            <outlet property="delegate" destination="b4M-tb-wlg" id="FFf-26-JUr"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Book Club Meetup" id="aga-yP-9Ob"/>
-                </tableViewController>
-            </objects>
-            <point key="canvasLocation" x="495.6521739130435" y="101.78571428571428"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="7jb-2f-mwk">
-            <objects>
-                <viewController id="aUO-8B-HSV" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7dZ-uJ-Bje">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="HeF-pU-4kc"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TGD-y3-uKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1246" y="103"/>
-        </scene>
         <!--Navigation Controller-->
-        <scene sceneID="eAE-On-95v">
+        <scene sceneID="Oma-RE-gqp">
             <objects>
-                <navigationController id="5LE-mA-799" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hYX-my-J6T">
+                <navigationController id="QSN-KQ-ujb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fGe-d6-KOu">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="b4M-tb-wlg" kind="relationship" relationship="rootViewController" id="hjQ-jZ-dTZ"/>
+                        <segue destination="yVM-ao-GcE" kind="relationship" relationship="rootViewController" id="dQ2-9g-fUc"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yNM-d2-NC0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="feh-he-eVi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-422" y="102"/>
+            <point key="canvasLocation" x="-306" y="66"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="asA-Sc-HgX">
+            <objects>
+                <viewController id="yVM-ao-GcE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dvc-9e-HtK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="MsL-rf-qca"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GJ4-x3-bqu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pfp-H9-H3Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="477" y="66"/>
         </scene>
     </scenes>
 </document>
