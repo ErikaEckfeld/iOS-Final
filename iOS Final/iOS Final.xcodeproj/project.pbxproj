@@ -86,7 +86,7 @@
 		F3FEED3023960E0F00D58810 = {
 			isa = PBXGroup;
 			children = (
-				F3FEED3B23960E0F00D58810 /* Books Events */,
+				F3FEED3B23960E0F00D58810 /* iOS Final */,
 				F3FEED5323960E1100D58810 /* iOS FinalTests */,
 				F3FEED5E23960E1100D58810 /* iOS FinalUITests */,
 				F3FEED3A23960E0F00D58810 /* Products */,
@@ -103,7 +103,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3FEED3B23960E0F00D58810 /* Books Events */ = {
+		F3FEED3B23960E0F00D58810 /* iOS Final */ = {
 			isa = PBXGroup;
 			children = (
 				F3FEED6D23961A7A00D58810 /* Model */,
@@ -114,7 +114,7 @@
 				F3FEED4B23960E1100D58810 /* Info.plist */,
 				F3FEED4323960E0F00D58810 /* iOS_Final.xcdatamodeld */,
 			);
-			path = "Books Events";
+			path = "iOS Final";
 			sourceTree = "<group>";
 		};
 		F3FEED5323960E1100D58810 /* iOS FinalTests */ = {
