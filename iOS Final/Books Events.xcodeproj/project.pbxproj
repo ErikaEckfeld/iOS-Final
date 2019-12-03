@@ -38,17 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F3FEED3923960E0F00D58810 /* iOS Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FEED3923960E0F00D58810 /* Books Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Books Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FEED3C23960E0F00D58810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3FEED4123960E0F00D58810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3FEED4423960E0F00D58810 /* iOS_Final.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Final.xcdatamodel; sourceTree = "<group>"; };
 		F3FEED4623960E1100D58810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3FEED4923960E1100D58810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3FEED4B23960E1100D58810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3FEED5023960E1100D58810 /* iOS FinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS FinalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FEED5023960E1100D58810 /* Books EventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Books EventsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FEED5423960E1100D58810 /* iOS_FinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_FinalTests.swift; sourceTree = "<group>"; };
 		F3FEED5623960E1100D58810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3FEED5B23960E1100D58810 /* iOS FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FEED5B23960E1100D58810 /* Books EventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Books EventsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FEED5F23960E1100D58810 /* iOS_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_FinalUITests.swift; sourceTree = "<group>"; };
 		F3FEED6123960E1100D58810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3FEED702396211200D58810 /* books.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = books.json; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		F3FEED3023960E0F00D58810 = {
 			isa = PBXGroup;
 			children = (
-				F3FEED3B23960E0F00D58810 /* iOS Final */,
+				F3FEED3B23960E0F00D58810 /* Books Events */,
 				F3FEED5323960E1100D58810 /* iOS FinalTests */,
 				F3FEED5E23960E1100D58810 /* iOS FinalUITests */,
 				F3FEED3A23960E0F00D58810 /* Products */,
@@ -96,14 +96,14 @@
 		F3FEED3A23960E0F00D58810 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3FEED3923960E0F00D58810 /* iOS Final.app */,
-				F3FEED5023960E1100D58810 /* iOS FinalTests.xctest */,
-				F3FEED5B23960E1100D58810 /* iOS FinalUITests.xctest */,
+				F3FEED3923960E0F00D58810 /* Books Events.app */,
+				F3FEED5023960E1100D58810 /* Books EventsTests.xctest */,
+				F3FEED5B23960E1100D58810 /* Books EventsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3FEED3B23960E0F00D58810 /* iOS Final */ = {
+		F3FEED3B23960E0F00D58810 /* Books Events */ = {
 			isa = PBXGroup;
 			children = (
 				F3FEED6D23961A7A00D58810 /* Model */,
@@ -114,7 +114,7 @@
 				F3FEED4B23960E1100D58810 /* Info.plist */,
 				F3FEED4323960E0F00D58810 /* iOS_Final.xcdatamodeld */,
 			);
-			path = "iOS Final";
+			path = "Books Events";
 			sourceTree = "<group>";
 		};
 		F3FEED5323960E1100D58810 /* iOS FinalTests */ = {
@@ -150,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3FEED3823960E0F00D58810 /* iOS Final */ = {
+		F3FEED3823960E0F00D58810 /* Books Events */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3FEED6423960E1100D58810 /* Build configuration list for PBXNativeTarget "iOS Final" */;
+			buildConfigurationList = F3FEED6423960E1100D58810 /* Build configuration list for PBXNativeTarget "Books Events" */;
 			buildPhases = (
 				F3FEED3523960E0F00D58810 /* Sources */,
 				F3FEED3623960E0F00D58810 /* Frameworks */,
@@ -162,14 +162,14 @@
 			);
 			dependencies = (
 			);
-			name = "iOS Final";
+			name = "Books Events";
 			productName = "iOS Final";
-			productReference = F3FEED3923960E0F00D58810 /* iOS Final.app */;
+			productReference = F3FEED3923960E0F00D58810 /* Books Events.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F3FEED4F23960E1100D58810 /* iOS FinalTests */ = {
+		F3FEED4F23960E1100D58810 /* Books EventsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3FEED6723960E1100D58810 /* Build configuration list for PBXNativeTarget "iOS FinalTests" */;
+			buildConfigurationList = F3FEED6723960E1100D58810 /* Build configuration list for PBXNativeTarget "Books EventsTests" */;
 			buildPhases = (
 				F3FEED4C23960E1100D58810 /* Sources */,
 				F3FEED4D23960E1100D58810 /* Frameworks */,
@@ -180,14 +180,14 @@
 			dependencies = (
 				F3FEED5223960E1100D58810 /* PBXTargetDependency */,
 			);
-			name = "iOS FinalTests";
+			name = "Books EventsTests";
 			productName = "iOS FinalTests";
-			productReference = F3FEED5023960E1100D58810 /* iOS FinalTests.xctest */;
+			productReference = F3FEED5023960E1100D58810 /* Books EventsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F3FEED5A23960E1100D58810 /* iOS FinalUITests */ = {
+		F3FEED5A23960E1100D58810 /* Books EventsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3FEED6A23960E1100D58810 /* Build configuration list for PBXNativeTarget "iOS FinalUITests" */;
+			buildConfigurationList = F3FEED6A23960E1100D58810 /* Build configuration list for PBXNativeTarget "Books EventsUITests" */;
 			buildPhases = (
 				F3FEED5723960E1100D58810 /* Sources */,
 				F3FEED5823960E1100D58810 /* Frameworks */,
@@ -198,9 +198,9 @@
 			dependencies = (
 				F3FEED5D23960E1100D58810 /* PBXTargetDependency */,
 			);
-			name = "iOS FinalUITests";
+			name = "Books EventsUITests";
 			productName = "iOS FinalUITests";
-			productReference = F3FEED5B23960E1100D58810 /* iOS FinalUITests.xctest */;
+			productReference = F3FEED5B23960E1100D58810 /* Books EventsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -226,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F3FEED3423960E0F00D58810 /* Build configuration list for PBXProject "iOS Final" */;
+			buildConfigurationList = F3FEED3423960E0F00D58810 /* Build configuration list for PBXProject "Books Events" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -239,9 +239,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3FEED3823960E0F00D58810 /* iOS Final */,
-				F3FEED4F23960E1100D58810 /* iOS FinalTests */,
-				F3FEED5A23960E1100D58810 /* iOS FinalUITests */,
+				F3FEED3823960E0F00D58810 /* Books Events */,
+				F3FEED4F23960E1100D58810 /* Books EventsTests */,
+				F3FEED5A23960E1100D58810 /* Books EventsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,12 +308,12 @@
 /* Begin PBXTargetDependency section */
 		F3FEED5223960E1100D58810 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3FEED3823960E0F00D58810 /* iOS Final */;
+			target = F3FEED3823960E0F00D58810 /* Books Events */;
 			targetProxy = F3FEED5123960E1100D58810 /* PBXContainerItemProxy */;
 		};
 		F3FEED5D23960E1100D58810 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3FEED3823960E0F00D58810 /* iOS Final */;
+			target = F3FEED3823960E0F00D58810 /* Books Events */;
 			targetProxy = F3FEED5C23960E1100D58810 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -507,7 +507,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Final.app/iOS Final";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Books Events.app/Books Events";
 			};
 			name = Debug;
 		};
@@ -528,7 +528,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Final.app/iOS Final";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Books Events.app/Books Events";
 			};
 			name = Release;
 		};
@@ -575,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3FEED3423960E0F00D58810 /* Build configuration list for PBXProject "iOS Final" */ = {
+		F3FEED3423960E0F00D58810 /* Build configuration list for PBXProject "Books Events" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3FEED6223960E1100D58810 /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3FEED6423960E1100D58810 /* Build configuration list for PBXNativeTarget "iOS Final" */ = {
+		F3FEED6423960E1100D58810 /* Build configuration list for PBXNativeTarget "Books Events" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3FEED6523960E1100D58810 /* Debug */,
@@ -593,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3FEED6723960E1100D58810 /* Build configuration list for PBXNativeTarget "iOS FinalTests" */ = {
+		F3FEED6723960E1100D58810 /* Build configuration list for PBXNativeTarget "Books EventsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3FEED6823960E1100D58810 /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3FEED6A23960E1100D58810 /* Build configuration list for PBXNativeTarget "iOS FinalUITests" */ = {
+		F3FEED6A23960E1100D58810 /* Build configuration list for PBXNativeTarget "Books EventsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3FEED6B23960E1100D58810 /* Debug */,
