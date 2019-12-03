@@ -14,7 +14,7 @@ class BooksEventsJSONLoader {
         var events = [BooksEvent]()
         
         if let path = Bundle.main.path(forResource: fileName, ofType: "json"),
-            let data = try? Data(contentsOf: <#T##URL#>(fileURLWithPath: path)) {
+            let data = try? Data(contentsOf: URL(fileURLWithPath: path)){
             events = BooksEventsJSONParser.parse(data)
         }
         

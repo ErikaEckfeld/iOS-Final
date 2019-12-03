@@ -18,7 +18,6 @@
 		F3FEED732396227800D58810 /* Classification.enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED722396227800D58810 /* Classification.enum.swift */; };
 		F3FEED752396255400D58810 /* BooksEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED742396255400D58810 /* BooksEvent.swift */; };
 		F3FEED772396288100D58810 /* BooksEvents.JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED762396288100D58810 /* BooksEvents.JSONParser.swift */; };
-		F3FEED7923962EA400D58810 /* BooksEventsJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED7823962EA400D58810 /* BooksEventsJSONLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +86,7 @@
 		F3FEED3023960E0F00D58810 = {
 			isa = PBXGroup;
 			children = (
-				F3FEED3B23960E0F00D58810 /* iOS Final */,
+				F3FEED3B23960E0F00D58810 /* Books Events */,
 				F3FEED5323960E1100D58810 /* iOS FinalTests */,
 				F3FEED5E23960E1100D58810 /* iOS FinalUITests */,
 				F3FEED3A23960E0F00D58810 /* Products */,
@@ -104,7 +103,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3FEED3B23960E0F00D58810 /* iOS Final */ = {
+		F3FEED3B23960E0F00D58810 /* Books Events */ = {
 			isa = PBXGroup;
 			children = (
 				F3FEED6D23961A7A00D58810 /* Model */,
@@ -115,7 +114,7 @@
 				F3FEED4B23960E1100D58810 /* Info.plist */,
 				F3FEED4323960E0F00D58810 /* iOS_Final.xcdatamodeld */,
 			);
-			path = "iOS Final";
+			path = "Books Events";
 			sourceTree = "<group>";
 		};
 		F3FEED5323960E1100D58810 /* iOS FinalTests */ = {
@@ -280,7 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3FEED7923962EA400D58810 /* BooksEventsJSONLoader.swift in Sources */,
 				F3FEED4523960E0F00D58810 /* iOS_Final.xcdatamodeld in Sources */,
 				F3FEED732396227800D58810 /* Classification.enum.swift in Sources */,
 				F3FEED3D23960E0F00D58810 /* AppDelegate.swift in Sources */,
