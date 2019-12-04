@@ -13,7 +13,7 @@ class BooksEventsViewController: UIViewController, UITableViewDelegate, UITableV
     @IBOutlet weak var booksEventsTableView: UITableView!
     
     
-    let booksEvents = BooksEventsJSONLoader.load(fileName: "books")
+    let booksEvents = BooksEventsJSONLoader.load(fileName: "books_events")
     
     
     let dateFormatter = DateFormatter()

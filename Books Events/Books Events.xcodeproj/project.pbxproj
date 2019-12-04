@@ -14,7 +14,7 @@
 		F3FEED4A23960E1100D58810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FEED4823960E1100D58810 /* LaunchScreen.storyboard */; };
 		F3FEED5523960E1100D58810 /* iOS_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED5423960E1100D58810 /* iOS_FinalTests.swift */; };
 		F3FEED6023960E1100D58810 /* iOS_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED5F23960E1100D58810 /* iOS_FinalUITests.swift */; };
-		F3FEED712396211200D58810 /* books.json in Resources */ = {isa = PBXBuildFile; fileRef = F3FEED702396211200D58810 /* books.json */; };
+		F3FEED712396211200D58810 /* books_events.json in Resources */ = {isa = PBXBuildFile; fileRef = F3FEED702396211200D58810 /* books_events.json */; };
 		F3FEED732396227800D58810 /* Classification.enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED722396227800D58810 /* Classification.enum.swift */; };
 		F3FEED752396255400D58810 /* BooksEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED742396255400D58810 /* BooksEvent.swift */; };
 		F3FEED772396288100D58810 /* BooksEvents.JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED762396288100D58810 /* BooksEvents.JSONParser.swift */; };
@@ -56,7 +56,7 @@
 		F3FEED5B23960E1100D58810 /* Books EventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Books EventsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FEED5F23960E1100D58810 /* iOS_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_FinalUITests.swift; sourceTree = "<group>"; };
 		F3FEED6123960E1100D58810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3FEED702396211200D58810 /* books.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = books.json; sourceTree = "<group>"; };
+		F3FEED702396211200D58810 /* books_events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = books_events.json; sourceTree = "<group>"; };
 		F3FEED722396227800D58810 /* Classification.enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.enum.swift; sourceTree = "<group>"; };
 		F3FEED742396255400D58810 /* BooksEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksEvent.swift; sourceTree = "<group>"; };
 		F3FEED762396288100D58810 /* BooksEvents.JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksEvents.JSONParser.swift; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 		F3FEED6D23961A7A00D58810 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F3FEED702396211200D58810 /* books.json */,
+				F3FEED702396211200D58810 /* books_events.json */,
 				F3FEED722396227800D58810 /* Classification.enum.swift */,
 				F3FEED742396255400D58810 /* BooksEvent.swift */,
 				F3FEED7823962EA400D58810 /* BooksEventsJSONLoader.swift */,
@@ -264,7 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3FEED712396211200D58810 /* books.json in Resources */,
+				F3FEED712396211200D58810 /* books_events.json in Resources */,
 				F3FEED4A23960E1100D58810 /* LaunchScreen.storyboard in Resources */,
 				F3FEED4723960E1100D58810 /* Assets.xcassets in Resources */,
 				F3FEED8423972D4B00D58810 /* Default-568h@2x.png in Resources */,
