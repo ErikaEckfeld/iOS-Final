@@ -1,89 +1,89 @@
 {
     "status": "ok",
-    "observations": [
+    "events": [
         {
             "classification": "action",
             "title" : "Treasure Island by Robert Louis Stevenson",
             "description" : "Address: 100 W Broadway, Columbia, MO 65203",
-            "date" : "2019-12-29T18:00:03Z"
+            "date" : "2019-12-29 18:00"
         },
         {
             "classification": "action",
             "title" : "The Three Muskateers by Alexandre Dumas",
             "description" : "703 Rangeline St, Columbia, MO 65201",
-            "date" : "2019-12-30T11:10:23Z"
+            "date" : "2019-12-30 11:10"
         },
         {
             "classification": "action",
             "title" : "The Bourne Identity by Robert Ludlum",
             "description" : "Address: 100 W Broadway, Columbia, MO 65203",
-            "date" : "2020-01-18T11:15:12Z"
+            "date" : "2020-01-18 11:15"
         },
         {
             "classification": "action",
             "title" : "Captain Blood: His Odyssey by Rafael Sabatini",
             "description" : " 109 N Main St, Ashland, MO 65010",
-            "date" : "2020-02-16T15:12:45Z"
+            "date" : "2020-02-16 15:12"
         },
         {
             "classification": "comedy",
             "title" : "Bossypants by Tina Fey",
             "description" : "703 Rangeline St, Columbia, MO 65201",
-            "date" : "2019-24-17T16:26:42Z"
+            "date" : "2019-24-17 16:26"
         },
         {
             "classification": "comedy",
             "title" : "Me Talk Pretty One Day by David Sedaris",
             "description" : " 109 N Main St, Ashland, MO 65010",
-            "date" : "2019-29-17T16:45:06Z"
+            "date" : "2019-29-17 16:45"
         },
         {
             "classification": "mystery",
             "title" : "The Girl with the Dragon Tattoo by Stieg Larsson",
             "description" : "Address: 100 W Broadway, Columbia, MO 65203",
-            "date" : "2019-01-18T17:14:03Z"
+            "date" : "2019-01-18 17:14"
         },
         {
             "classification": "mystery",
             "title" : "Murder on the Orient Express by Agatha Christie",
             "description" : " 109 N Main St, Ashland, MO 65010",
-            "date" : "2019-01-19T10:05:32Z"
+            "date" : "2019-01-19 10:05"
         },
         {
             "classification": "mystery",
             "title" : "The Girl on the Train by Paula Hawkins",
             "description" : " 109 N Main St, Ashland, MO 65010",
-            "date" : "2019-02-21T10:39:08Z"
+            "date" : "2019-02-21 10:39"
         },
         {
             "classification": "romance",
             "title" : "The Wedding Date by Jasmine Guillory",
             "description" : "703 Rangeline St, Columbia, MO 65201",
-            "date" : "2020-01-20T12:32:39Z"
+            "date" : "2020-01-20 12:32"
         },
         {
             "classification": "romance",
             "title" : "Red, White & Royal Blue: A Novel by Casey McQuiston",
             "description" : "Address: 100 W Broadway, Columbia, MO 65203",
-            "date" : "2019-01-21T13:17:01Z"
+            "date" : "2019-01-21 13:17"
         },
         {
             "classification": "scifi",
             "title" : "Ender's Game by Orson Scott Card",
             "description" : "Address:703 Rangeline St, Columbia, MO 65201",
-            "date" : "2019-12-18T13:17:01Z"
+            "date" : "2019-12-18 13:17"
         },
         {
             "classification": "scifi",
             "title" : "The Handmaid's Tale by Margaret Atwood",
             "description" : "Address: 100 W Broadway, Columbia, MO 65203",
-            "date" : "2019-12-20T13:17:01Z"
+            "date" : "2019-12-20 13:17"
         },
         {
             "classification": "scifi",
             "title" : "The Testaments by Margaret Atwood",
             "description" : "Address: 100 W Broadway, Columbia, MO 65203",
-            "date" : "2019-02-13T13:17:01Z"
+            "date" : "2019-02-13 13:17"
         }
     ]
 }
