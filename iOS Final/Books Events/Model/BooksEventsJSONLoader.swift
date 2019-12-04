@@ -8,7 +8,7 @@
 
 import Foundation
 
-class BooksEventsJSONLoader {
+class BooksEventsJSONLoader{
     
     class func load(fileName: String) -> [BooksEvent] {
         var events = [BooksEvent]()

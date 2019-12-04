@@ -20,6 +20,9 @@
 		F3FEED772396288100D58810 /* BooksEvents.JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED762396288100D58810 /* BooksEvents.JSONParser.swift */; };
 		F3FEED7D2396385500D58810 /* BooksEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED7C2396385500D58810 /* BooksEventsViewController.swift */; };
 		F3FEED7F239638C900D58810 /* BooksEventsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED7E239638C900D58810 /* BooksEventsDetailViewController.swift */; };
+		F3FEED81239722F400D58810 /* BooksEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED80239722F400D58810 /* BooksEventTableViewCell.swift */; };
+		F3FEED822397288100D58810 /* BooksEventsJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FEED7823962EA400D58810 /* BooksEventsJSONLoader.swift */; };
+		F3FEED8423972D4B00D58810 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3FEED8323972D4B00D58810 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,8 @@
 		F3FEED7823962EA400D58810 /* BooksEventsJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksEventsJSONLoader.swift; sourceTree = "<group>"; };
 		F3FEED7C2396385500D58810 /* BooksEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksEventsViewController.swift; sourceTree = "<group>"; };
 		F3FEED7E239638C900D58810 /* BooksEventsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksEventsDetailViewController.swift; sourceTree = "<group>"; };
+		F3FEED80239722F400D58810 /* BooksEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksEventTableViewCell.swift; sourceTree = "<group>"; };
+		F3FEED8323972D4B00D58810 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,7 @@
 		F3FEED3023960E0F00D58810 = {
 			isa = PBXGroup;
 			children = (
+				F3FEED8323972D4B00D58810 /* Default-568h@2x.png */,
 				F3FEED3B23960E0F00D58810 /* Books Events */,
 				F3FEED5323960E1100D58810 /* iOS FinalTests */,
 				F3FEED5E23960E1100D58810 /* iOS FinalUITests */,
@@ -119,6 +125,7 @@
 				F3FEED4323960E0F00D58810 /* iOS_Final.xcdatamodeld */,
 				F3FEED7C2396385500D58810 /* BooksEventsViewController.swift */,
 				F3FEED7E239638C900D58810 /* BooksEventsDetailViewController.swift */,
+				F3FEED80239722F400D58810 /* BooksEventTableViewCell.swift */,
 			);
 			path = "Books Events";
 			sourceTree = "<group>";
@@ -147,8 +154,8 @@
 				F3FEED702396211200D58810 /* books.json */,
 				F3FEED722396227800D58810 /* Classification.enum.swift */,
 				F3FEED742396255400D58810 /* BooksEvent.swift */,
-				F3FEED762396288100D58810 /* BooksEvents.JSONParser.swift */,
 				F3FEED7823962EA400D58810 /* BooksEventsJSONLoader.swift */,
+				F3FEED762396288100D58810 /* BooksEvents.JSONParser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -260,6 +267,7 @@
 				F3FEED712396211200D58810 /* books.json in Resources */,
 				F3FEED4A23960E1100D58810 /* LaunchScreen.storyboard in Resources */,
 				F3FEED4723960E1100D58810 /* Assets.xcassets in Resources */,
+				F3FEED8423972D4B00D58810 /* Default-568h@2x.png in Resources */,
 				F3FEED4223960E0F00D58810 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,9 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FEED822397288100D58810 /* BooksEventsJSONLoader.swift in Sources */,
 				F3FEED7D2396385500D58810 /* BooksEventsViewController.swift in Sources */,
 				F3FEED4523960E0F00D58810 /* iOS_Final.xcdatamodeld in Sources */,
 				F3FEED732396227800D58810 /* Classification.enum.swift in Sources */,
+				F3FEED81239722F400D58810 /* BooksEventTableViewCell.swift in Sources */,
 				F3FEED3D23960E0F00D58810 /* AppDelegate.swift in Sources */,
 				F3FEED752396255400D58810 /* BooksEvent.swift in Sources */,
 				F3FEED7F239638C900D58810 /* BooksEventsDetailViewController.swift in Sources */,
@@ -468,7 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98WSKLZW5L;
-				INFOPLIST_FILE = "iOS Final/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Books Events/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,7 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98WSKLZW5L;
-				INFOPLIST_FILE = "iOS Final/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Books Events/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
