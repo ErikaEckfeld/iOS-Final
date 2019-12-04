@@ -3,14 +3,14 @@
     "events": [
         {
             "classification": "action",
-            "title" : "Treasure Island by Robert Louis Stevenson",
-            "description" : "Address: 100 W Broadway, Columbia, MO 65203",
+            "title" : "Treasure Island ",
+            "description" : "Written by Robert Louis Stevenson. Address: 100 W Broadway, Columbia, MO 65203",
             "date" : "2019-12-29 18:00"
         },
         {
             "classification": "action",
-            "title" : "The Three Muskateers by Alexandre Dumas",
-            "description" : "703 Rangeline St, Columbia, MO 65201",
+            "title" : "The Three Muskateers",
+            "description" : "Written by by Alexandre Dumas. 703 Rangeline St, Columbia, MO 65201",
             "date" : "2019-12-30 11:10"
         },
         {
@@ -68,6 +68,12 @@
             "date" : "2019-01-21 13:17"
         },
         {
+            "classification": "romance",
+            "title" : "Red, White & Royal Blue: A Novel by Casey McQuiston",
+            "description" : "Address: 100 W Broadway, Columbia, MO 65203",
+            "date" : "2019-01-21 13:17"
+        },
+        {
             "classification": "scifi",
             "title" : "Ender's Game by Orson Scott Card",
             "description" : "Address:703 Rangeline St, Columbia, MO 65201",
@@ -78,6 +84,18 @@
             "title" : "The Handmaid's Tale by Margaret Atwood",
             "description" : "Address: 100 W Broadway, Columbia, MO 65203",
             "date" : "2019-12-20 13:17"
+        },
+        {
+            "classification": "scifi",
+            "title" : "The Testaments by Margaret Atwood",
+            "description" : "Address: 100 W Broadway, Columbia, MO 65203",
+            "date" : "2019-02-13 13:17"
+        },
+        {
+            "classification": "scifi",
+            "title" : "The Testaments by Margaret Atwood",
+            "description" : "Address: 100 W Broadway, Columbia, MO 65203",
+            "date" : "2019-02-13 13:17"
         },
         {
             "classification": "scifi",
